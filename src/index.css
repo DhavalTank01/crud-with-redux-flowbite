@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.bredcrumb-wrapper ol li {
+  @apply cursor-pointer;
+}
+.bredcrumb-wrapper ol li:first-child > span {
+  @apply text-gray-700 dark:text-gray-300;
+}
